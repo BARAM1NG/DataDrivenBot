@@ -42,3 +42,7 @@ This project has two key features: `Chatbot` and `Visualization`.
 ### PyGWalker
 - Use `PyGWalker` to integrate with the Streamlit application, providing interactive data visualization functionality.  
 - Capable of visualizing small datasets (under 10MB) but not suitable for large-scale data visualization.
+
+## Demo Video
+- [Demo Video](asset/시연영상.mp4)
+
