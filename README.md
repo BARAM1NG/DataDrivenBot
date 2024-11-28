@@ -28,8 +28,8 @@ This project has two key features: `Chatbot` and `Visualization`.
 ## Chatbot
 
 ### LLM
-- Using a `Llama3` model fine-tuned in Korean as the LLM engine
-- [llama3 link](https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B-gguf-Q4_K_M)
+- Using a `llama3` model fine-tuned in Korean as the LLM engine
+  - [[llama-3-Korean-Bllossom-8B]](https://huggingface.co/MLP-KTLim/llama-3-Korean-Bllossom-8B-gguf-Q4_K_M)
 
 ### Langchain / RAG
 - Configure the project's basic logic using LangChain
@@ -42,6 +42,17 @@ This project has two key features: `Chatbot` and `Visualization`.
 ### PyGWalker
 - Use `PyGWalker` to integrate with the Streamlit application, providing interactive data visualization functionality.  
 - Capable of visualizing small datasets (under 10MB) but not suitable for large-scale data visualization.
+
+## GPTs vs Custom Chatbot
+
+### GPTs
+- Provide additional explanations based on the given data.
+- Deliver answers that are easy to read and understand.
+- Offer creative responses.
+
+### Custom Chatbot
+- Tend to return content exactly as found in the RAG data.
+- Excel at answering questions about the provided materials but struggle with questions requiring creativity.
 
 ## Demo Video
 - [Demo Video](asset/시연영상.mp4)
